@@ -7,6 +7,7 @@ class HelloWorld extends Component{
     this.state = { greeting: 'Hello',
                   phrase: 'this is major Tom.'
                 };
+    this.frenchify = this.frenchify.bind(this)
   }
 
   frenchify() {
